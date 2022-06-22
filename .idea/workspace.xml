@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="28QIFP2deQASgH1ZLZauHMTB7OS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-framework" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\AutoTest\ProjectAutoTest\src" />
+      <recent name="F:\AutoTest\ProjectAutoTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml">
+    <configuration name="F:/AutoTest/ProjectAutoTest/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutoTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F:/AutoTest/ProjectAutoTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutoTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hieu.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hieu.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hieu.testcases.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hieu.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hieu.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hieu.testcases.SignInTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInTest.signin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hieu.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hieu.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hieu.testcases.SignInTest" />
+      <option name="METHOD_NAME" value="signin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml" />
+        <item itemvalue="TestNG.F:/AutoTest/ProjectAutoTest/testng.xml" />
+        <item itemvalue="TestNG.SignInTest.signin" />
+        <item itemvalue="TestNG.SignInTest" />
+        <item itemvalue="TestNG.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="" />
+      <created>1651142278804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651142278804</updated>
+      <workItem from="1651142281789" duration="4668000" />
+      <workItem from="1651654012169" duration="3240000" />
+      <workItem from="1651746755859" duration="2582000" />
+      <workItem from="1652254538918" duration="4805000" />
+      <workItem from="1652328289774" duration="447000" />
+      <workItem from="1652328780885" duration="3246000" />
+      <workItem from="1652437987195" duration="3979000" />
+      <workItem from="1652848184303" duration="1228000" />
+      <workItem from="1653555611971" duration="3908000" />
+      <workItem from="1654067372859" duration="1616000" />
+      <workItem from="1654784632345" duration="1896000" />
+      <workItem from="1655002999040" duration="4015000" />
+      <workItem from="1655179533207" duration="11705000" />
+      <workItem from="1655271839201" duration="6952000" />
+      <workItem from="1655366501100" duration="8609000" />
+      <workItem from="1655740694640" duration="6398000" />
+      <workItem from="1655749592672" duration="1521000" />
+      <workItem from="1655781419174" duration="27435000" />
+      <workItem from="1655887279854" duration="5125000" />
+      <workItem from="1655896973828" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1758" y="91" key="#Project_Structure" timestamp="1655744780017">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1758" y="91" key="#Project_Structure/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655744780017" />
+    <state x="1458" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1655807887382">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1458" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655807887382" />
+    <state x="1936" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655887919632">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1936" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655887919632" />
+    <state x="1971" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1655797864390">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1971" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655797864390" />
+    <state x="1755" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1655894465255">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1755" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655894465255" />
+    <state x="1896" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1655829085592">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1896" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655829085592" />
+    <state x="1908" y="144" key="FileChooserDialogImpl" timestamp="1655834963884">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1652256104950" />
+    <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655834963884" />
+    <state width="1557" height="338" key="GridCell.Tab.0.bottom" timestamp="1655897428812">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1651146995079" />
+    <state width="1557" height="338" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655897428812" />
+    <state width="1557" height="338" key="GridCell.Tab.0.center" timestamp="1655897428812">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1651146995079" />
+    <state width="1557" height="338" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655897428812" />
+    <state width="1557" height="338" key="GridCell.Tab.0.left" timestamp="1655897428812">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1651146995079" />
+    <state width="1557" height="338" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655897428812" />
+    <state width="1557" height="338" key="GridCell.Tab.0.right" timestamp="1655897428812">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1651146995079" />
+    <state width="1557" height="338" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655897428812" />
+    <state width="1557" height="23" key="GridCell.Tab.1.bottom" timestamp="1655837366218">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="23" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655837366218" />
+    <state width="1557" height="23" key="GridCell.Tab.1.center" timestamp="1655837366218">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="23" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655837366218" />
+    <state width="1557" height="23" key="GridCell.Tab.1.left" timestamp="1655837366218">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="23" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655837366218" />
+    <state width="1557" height="23" key="GridCell.Tab.1.right" timestamp="1655837366218">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="23" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655837366218" />
+    <state x="1669" y="15" key="SettingsEditor" timestamp="1655835226646">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1669" y="15" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655835226646" />
+    <state x="1873" y="186" width="586" height="488" key="find.popup" timestamp="1655749690819">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1873" y="186" width="586" height="488" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655749690819" />
+  </component>
+</project>
