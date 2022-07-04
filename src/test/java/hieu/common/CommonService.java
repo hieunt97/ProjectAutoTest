@@ -1,14 +1,17 @@
 package hieu.common;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class CommonService {
     private WebDriver driver;
@@ -22,7 +25,7 @@ public class CommonService {
         js = (JavascriptExecutor) driver;
     }
 
-    public boolean veryfiPageTitle(String pageTitle){
+    public boolean veryfiPageTitle(String pageTitle) {
         String title = driver.getTitle();
         return title.contains(pageTitle);
     }
@@ -34,7 +37,8 @@ public class CommonService {
     }
 
     public void clickElemnt(By element) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(element));;
+        wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+        ;
         driver.findElement(element).click();
     }
 
@@ -67,23 +71,19 @@ public class CommonService {
         }
     }
 
-    public void setTextValue(WebElement element, String value){
+    public void setTextValue(WebElement element, String value) {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.clear();
         element.sendKeys(value);
     }
 
-    public void clickSubmit(WebElement element){
+    public void clickSubmit(WebElement element) {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
 
     public void clickToElemnt(WebElement element) {
-        wait.until(ExpectedConditions.elementToBeClickable(element));;
+        wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
-
-
-
-
 }

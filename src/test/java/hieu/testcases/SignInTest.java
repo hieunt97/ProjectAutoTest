@@ -2,10 +2,20 @@ package hieu.testcases;
 
 import hieu.common.BaseSetup;
 import hieu.common.CommonService;
+import hieu.common.ExtentManager;
+import hieu.common.Utils;
 import hieu.page.DashboardPage;
 import hieu.page.SignInPage;
+import org.apache.commons.io.FileUtils;
+import org.apache.poi.util.SystemOutLogger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
+
+import java.io.File;
+import java.io.IOException;
 
 public class SignInTest extends BaseSetup {
 
@@ -15,8 +25,13 @@ public class SignInTest extends BaseSetup {
     private DashboardPage dashboardPage;
 
     @BeforeClass
-    public void setupBrowser(){
+    public void setupBrowser() {
         driver = getDriver();
+    }
+
+    @BeforeMethod
+    public void startTest(){
+        ExtentManager.initReport();
     }
 
     @Test(priority = 1)
@@ -35,7 +50,7 @@ public class SignInTest extends BaseSetup {
         Thread.sleep(2000);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, dataProvider = "")
     public void signInInvalidPassword() throws InterruptedException {
         commonService = new CommonService(driver);
         signInPage = new SignInPage(driver);
@@ -53,25 +68,22 @@ public class SignInTest extends BaseSetup {
 
 //----------- Testcase signIn continute.. ------------
 
+    //    @AfterMethod
+//    public void takeScreenshot(ITestResult result) throws InterruptedException, IOException {
+//        Thread.sleep(1000);
+//        if(result.getStatus() == ITestResult.FAILURE){
+//            Utils.takeScreenshot(driver, result.getName());
+//        }
+//    }
+
+    @AfterMethod
+    public void setResult(ITestResult result) throws IOException {
+        ExtentManager.setResult(driver, result);
+    }
+
     @AfterClass
     public void tearDown() throws Exception {
         Thread.sleep(2000);
         driver.quit();
     }
-
-//    @AfterTest
-//    public void takeScreenshot(ITestResult result) {
-//        if (ITestResult.FAILURE == result.getStatus()) {
-//            TakesScreenshot camera = (TakesScreenshot) driver;
-//            File screenshot = camera.getScreenshotAs(OutputType.FILE);
-//            try {
-//                Files.move(screenshot, new File("resources/screenshots/"+ result.getName() + ".png"));
-//            } catch (Exception ex) {
-//                ex.printStackTrace();
-//            }
-//        }
-//
-//    }
-
-
 }

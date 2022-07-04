@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="CRM Suite" verbose="1">
+<suite name="CRM Suite" verbose="1" parallel="tests">
     <parameter name="browserType" value="chrome" />
     <parameter name="webURL"
                value="https://crm.anhtester.com/signin" />
     <test name="CRM test">
         <classes>
-            <class name="hieu.testcases.SignInTest"></class>
+<!--            <class name="hieu.testcases.SignInTest"></class>-->
             <class name="hieu.testcases.ProjectTest">
 <!--                <methods>-->
 <!--                    <include name="signIn"></include>-->
 <!--                    <include name="openProjectPage"></include>-->
 <!--                    <include name="searchProject"></include>-->
 <!--                </methods>-->
+                <methods>
+                    <exclude name="openAddProjectPage"></exclude>
+                    <exclude name="addProject"></exclude>
+                </methods>
             </class>
 
         </classes>
