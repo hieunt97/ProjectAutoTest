@@ -78,9 +78,9 @@ public class ProjectTest extends BaseSetup {
 
     @Test(priority = 5)
     public void searchProject() throws InterruptedException {
-        projectPage.enterSearchValue("4,000");
+        projectPage.enterSearchValue("P01");
         Thread.sleep(1000);
-        projectPage.checkSearchTableByColumn(4, "4,000");
+        projectPage.checkSearchTableByColumn(2, "P01");
     }
 
 //    @AfterMethod

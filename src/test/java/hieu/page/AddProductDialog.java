@@ -25,8 +25,13 @@ public class AddProductDialog {
 
     private By headerPageText = By.id("ajaxModalTitle");
     private By titleInput = By.id("title");
+
+    private By projectTypeDropdown = By.xpath("//label[@for='project_type']/following-sibling::div");
+    private By searchProjectTypeInput = By.xpath("//div[@id='select2-drop']/div/input");
+
     private By clientDropdown = By.xpath("//label[@for='client_id']/following-sibling::div");
     private By searchClientInput = By.xpath("//div[@id='select2-drop']/div/input");
+
     private By desInput = By.id("description");
     private By startDateInput = By.id("start_date");
     private By deadLineInput = By.id("deadline");
@@ -39,10 +44,16 @@ public class AddProductDialog {
         commonService.setText(titleInput, "P01");
         Thread.sleep(1000);
 
+        commonService.clickElemnt(projectTypeDropdown);
+        Thread.sleep(1000);
+        commonService.setText(searchProjectTypeInput, "Client Project");
+        Thread.sleep(1000);
+        actions.sendKeys(Keys.ENTER).build().perform();
+
+
         commonService.clickElemnt(clientDropdown);
         Thread.sleep(1000);
-
-        commonService.setText(searchClientInput, "Công ty cổ phần BlueCo");
+        commonService.setText(searchClientInput, "690");
         Thread.sleep(1000);
         actions.sendKeys(Keys.ENTER).build().perform();
 
@@ -63,7 +74,7 @@ public class AddProductDialog {
         actions.sendKeys(Keys.ENTER).build().perform();
         Thread.sleep(1000);
 
-        driver.findElement(saveBtn).click();
+        driver.findElement(saveBtn).submit();
 
 //        driver.findElement(titleInput).sendKeys("P01");
 //        Thread.sleep(1000);

@@ -58,7 +58,7 @@ public class ProjectPage {
         List<WebElement> row = driver.findElements(By.xpath("//table//tbody/tr"));
         int rowTotal = row.size(); //Láy so dong
         System.out.println("Tổng số dòng: " + rowTotal);
-
+ 
         //Duyệt từng row
         for (int i = 1; i <= rowTotal; i++) {
             WebElement elementCheck = driver.findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + colum + "]"));

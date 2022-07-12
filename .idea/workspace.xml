@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ADMIN.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/testcases/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/testcases/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hieu/com/uitls/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hieu/com/uitls/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/BaseSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/ProjectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/ProjectPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/SigInPageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/SigInPageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/SignInPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/testcases/SignInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/testcases/SignInTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +56,7 @@
       <recent name="F:\AutoTest\ProjectAutoTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Report20220704050906.html">
-    <configuration name="Report20220627050529.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220627050529.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml">
     <configuration name="Report20220627051113.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220627051113.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -80,6 +64,9 @@
       <method v="2" />
     </configuration>
     <configuration name="Report20220704050906.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220704050906.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Report20220707113010.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220707113010.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="F:/AutoTest/ProjectAutoTest/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -94,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Report20220704050906.html" />
         <item itemvalue="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml" />
+        <item itemvalue="JavaScript Debug.Report20220707113010.html" />
+        <item itemvalue="JavaScript Debug.Report20220704050906.html" />
         <item itemvalue="JavaScript Debug.Report20220627051113.html" />
         <item itemvalue="JavaScript Debug.Report20220627051927.html" />
-        <item itemvalue="JavaScript Debug.Report20220627050529.html" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +126,12 @@
       <workItem from="1656297404682" duration="20248000" />
       <workItem from="1656753717337" duration="1869000" />
       <workItem from="1656927947378" duration="1238000" />
+      <workItem from="1657105856389" duration="2056000" />
+      <workItem from="1657107987191" duration="4234000" />
+      <workItem from="1657113852048" duration="4893000" />
+      <workItem from="1657210191369" duration="2728000" />
+      <workItem from="1657213030935" duration="587000" />
+      <workItem from="1657594655670" duration="1214000" />
     </task>
     <servers />
   </component>
@@ -174,32 +167,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="446" height="442" key="DebuggerActiveHint/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656317668025" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1656307401308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1908" y="144" key="FileChooserDialogImpl" timestamp="1657106087228">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1652256104950" />
-    <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655834963884" />
+    <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657106087228" />
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656307401308" />
-    <state width="1323" height="193" key="GridCell.Tab.0.bottom" timestamp="1656929481846">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1557" height="283" key="GridCell.Tab.0.bottom" timestamp="1657213623089">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1323" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656929481846" />
-    <state width="1557" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
-    <state width="1323" height="193" key="GridCell.Tab.0.center" timestamp="1656929481846">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="400" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
+    <state width="1557" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
+    <state width="1557" height="283" key="GridCell.Tab.0.center" timestamp="1657213623089">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1323" height="193" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656929481846" />
-    <state width="1557" height="168" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475743" />
-    <state width="1323" height="193" key="GridCell.Tab.0.left" timestamp="1656929481846">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="400" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
+    <state width="1557" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
+    <state width="1557" height="283" key="GridCell.Tab.0.left" timestamp="1657213623089">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1323" height="193" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656929481846" />
-    <state width="1557" height="168" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475743" />
-    <state width="1323" height="193" key="GridCell.Tab.0.right" timestamp="1656929481846">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="400" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
+    <state width="1557" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
+    <state width="1557" height="283" key="GridCell.Tab.0.right" timestamp="1657213623089">
+      <screen x="1366" y="0" width="1600" height="860" />
     </state>
-    <state width="1323" height="193" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656929481846" />
-    <state width="1557" height="168" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
+    <state width="1323" height="400" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
+    <state width="1557" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
     <state width="1323" height="275" key="GridCell.Tab.1.bottom" timestamp="1656326616822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,5 +225,9 @@
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1873" y="186" width="586" height="488" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655749690819" />
+    <state x="1548" y="134" key="new project wizard" timestamp="1657106133415">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1548" y="134" key="new project wizard/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657106133415" />
   </component>
 </project>

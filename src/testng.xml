@@ -14,9 +14,9 @@
 <!--                    <include name="searchProject"></include>-->
 <!--                </methods>-->
                 <methods>
-                    <exclude name="openAddProjectPage"></exclude>
-                    <exclude name="addProject"></exclude>
-                </methods>
+<!--                <exclude name="openAddProjectPage"></exclude>-->
+<!--                <exclude name="addProject"></exclude>-->
+            </methods>
             </class>
 
         </classes>
