@@ -32,13 +32,12 @@ public class CommonService {
 
     public void setText(By element, String value) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-        driver.findElement(element).clear();
+//        driver.findElement(element).clear();
         driver.findElement(element).sendKeys(value);
     }
 
     public void clickElemnt(By element) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-        ;
         driver.findElement(element).click();
     }
 
@@ -85,5 +84,12 @@ public class CommonService {
     public void clickToElemnt(WebElement element) {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
+    }
+
+    public void scrollDown(By element) {
+        js.executeScript("arguments[0].scrollIntoView(true);", findWebElement(element));
+    }
+    public WebElement findWebElement(By by) {
+        return driver.findElement(by);
     }
 }

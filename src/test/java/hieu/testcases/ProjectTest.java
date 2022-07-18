@@ -73,11 +73,13 @@ public class ProjectTest extends BaseSetup {
     @Test(priority = 4)
     public void addProject() throws InterruptedException {
         addProductDialog.saveProduct();
+        driver.navigate().refresh();
         Thread.sleep(1000);
     }
 
     @Test(priority = 5)
     public void searchProject() throws InterruptedException {
+        commonService.waitForPageLoad();
         projectPage.enterSearchValue("P01");
         Thread.sleep(1000);
         projectPage.checkSearchTableByColumn(2, "P01");

@@ -3,10 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627044045.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627044652.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627045918.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627050529.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627050739.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627051113.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627051927.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220704050906.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220706094617.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113010.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113521.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113642.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115413.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115815.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115956.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220708120150.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220708120516.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" afterDir="false" />
     </list>
@@ -44,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework_Demo_WordProess" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Selenium-TestNG-Automation-Framework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,16 +76,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml">
-    <configuration name="Report20220627051113.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220627051113.html" useBuiltInWebServerPort="true">
+    <configuration name="Report20220719012452.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220719012452.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Report20220627051927.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220627051927.html" useBuiltInWebServerPort="true">
+    <configuration name="Report20220719014703.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220719014703.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Report20220704050906.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220704050906.html" useBuiltInWebServerPort="true">
+    <configuration name="Report20220719125515.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220719125515.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Report20220707113010.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report20220707113010.html" useBuiltInWebServerPort="true">
+    <configuration name="Report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectAutoTest/ExtentReports/Report.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="F:/AutoTest/ProjectAutoTest/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -82,10 +101,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.F:/AutoTest/ProjectAutoTest/src/testng.xml" />
-        <item itemvalue="JavaScript Debug.Report20220707113010.html" />
-        <item itemvalue="JavaScript Debug.Report20220704050906.html" />
-        <item itemvalue="JavaScript Debug.Report20220627051113.html" />
-        <item itemvalue="JavaScript Debug.Report20220627051927.html" />
+        <item itemvalue="JavaScript Debug.Report.html" />
+        <item itemvalue="JavaScript Debug.Report20220719014703.html" />
+        <item itemvalue="JavaScript Debug.Report20220719012452.html" />
+        <item itemvalue="JavaScript Debug.Report20220719125515.html" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +150,10 @@
       <workItem from="1657113852048" duration="4893000" />
       <workItem from="1657210191369" duration="2728000" />
       <workItem from="1657213030935" duration="587000" />
-      <workItem from="1657594655670" duration="1214000" />
+      <workItem from="1657594655670" duration="5415000" />
+      <workItem from="1657876860642" duration="1175000" />
+      <workItem from="1658127367019" duration="1521000" />
+      <workItem from="1658165969882" duration="5277000" />
     </task>
     <servers />
   </component>
@@ -167,52 +189,76 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="446" height="442" key="DebuggerActiveHint/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656317668025" />
-    <state x="1908" y="144" key="FileChooserDialogImpl" timestamp="1657106087228">
+    <state x="1908" y="144" key="FileChooserDialogImpl" timestamp="1657876899608">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1652256104950" />
-    <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657106087228" />
+    <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657876899608" />
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656307401308" />
-    <state width="1557" height="283" key="GridCell.Tab.0.bottom" timestamp="1657213623089">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state width="1323" height="275" key="GridCell.Tab.0.bottom" timestamp="1658171290482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1557" height="283" key="GridCell.Tab.0.center" timestamp="1657213623089">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
+    <state width="1323" height="275" key="GridCell.Tab.0.center" timestamp="1658171290482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1557" height="283" key="GridCell.Tab.0.left" timestamp="1657213623089">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
+    <state width="1323" height="275" key="GridCell.Tab.0.left" timestamp="1658171290482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1557" height="283" key="GridCell.Tab.0.right" timestamp="1657213623089">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
+    <state width="1323" height="275" key="GridCell.Tab.0.right" timestamp="1658171290482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1323" height="275" key="GridCell.Tab.1.bottom" timestamp="1656326616822">
+    <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
+    <state width="1323" height="275" key="GridCell.Tab.1.bottom" timestamp="1658171290483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="275" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656326616822" />
     <state width="1557" height="168" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
-    <state width="1323" height="275" key="GridCell.Tab.1.center" timestamp="1656326616822">
+    <state width="1323" height="275" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.1.center" timestamp="1658171290483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="275" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656326616822" />
     <state width="1557" height="168" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
-    <state width="1323" height="275" key="GridCell.Tab.1.left" timestamp="1656326616822">
+    <state width="1323" height="275" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.1.left" timestamp="1658171290483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="275" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656326616822" />
     <state width="1557" height="168" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
-    <state width="1323" height="275" key="GridCell.Tab.1.right" timestamp="1656326616822">
+    <state width="1323" height="275" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.1.right" timestamp="1658171290483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="275" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656326616822" />
     <state width="1557" height="168" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656317475744" />
+    <state width="1323" height="275" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.2.bottom" timestamp="1658171290484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="275" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658171290484" />
+    <state width="1323" height="275" key="GridCell.Tab.2.center" timestamp="1658171290483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="275" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.2.left" timestamp="1658171290483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="275" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
+    <state width="1323" height="275" key="GridCell.Tab.2.right" timestamp="1658171290483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="275" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1658171290483" />
     <state x="1696" y="88" key="Maven.ArtifactSearchDialog" timestamp="1656309469325">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>

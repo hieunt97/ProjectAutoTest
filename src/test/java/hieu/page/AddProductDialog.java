@@ -59,17 +59,18 @@ public class AddProductDialog {
 
         commonService.setText(desInput, "description abc");
         Thread.sleep(1000);
+        commonService.scrollDown(desInput);
 
-        commonService.setText(startDateInput, "2022-08-25");
-        Thread.sleep(1000);
+        commonService.setText(startDateInput, "2022-07-19");
+        Thread.sleep(2000);
 
-        commonService.setText(deadLineInput, "2022-08-30");
-        Thread.sleep(1000);
+        commonService.setText(deadLineInput, "2022-07-30");
+        Thread.sleep(2000);
 
         commonService.setText(priceInput, "priceInput");
         Thread.sleep(1000);
 
-        commonService.setText(labelInput, "Public");
+        commonService.setText(labelInput, "U");
         Thread.sleep(1000);
         actions.sendKeys(Keys.ENTER).build().perform();
         Thread.sleep(1000);

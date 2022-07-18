@@ -56,9 +56,9 @@ public class ProjectPage {
 
     public void checkSearchTableByColumn(int colum, String value) {
         List<WebElement> row = driver.findElements(By.xpath("//table//tbody/tr"));
-        int rowTotal = row.size(); //Láy so dong
-        System.out.println("Tổng số dòng: " + rowTotal);
- 
+        int rowTotal = row.size(); //Lay so dong
+        System.out.println("Search Result: " + rowTotal);
+
         //Duyệt từng row
         for (int i = 1; i <= rowTotal; i++) {
             WebElement elementCheck = driver.findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + colum + "]"));
@@ -66,11 +66,9 @@ public class ProjectPage {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
 
-            System.out.print(value + " - " + elementCheck.getText());
+            System.out.println("Row" + i + ":" + elementCheck.getText().toUpperCase().contains(value.toUpperCase()) + " - " + elementCheck.getText());
             Assert.assertTrue(elementCheck.getText().toUpperCase().contains(value.toUpperCase()), "Row " + i + " Not contains search value");
         }
-
-
     }
 
 }
