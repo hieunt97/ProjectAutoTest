@@ -32,7 +32,7 @@ public class CommonService {
 
     public void setText(By element, String value) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
-//        driver.findElement(element).clear();
+        driver.findElement(element).clear();
         driver.findElement(element).sendKeys(value);
     }
 
@@ -92,4 +92,5 @@ public class CommonService {
     public WebElement findWebElement(By by) {
         return driver.findElement(by);
     }
+
 }

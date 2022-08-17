@@ -53,7 +53,7 @@ public class AddProductDialog {
 
         commonService.clickElemnt(clientDropdown);
         Thread.sleep(1000);
-        commonService.setText(searchClientInput, "690");
+        commonService.setText(searchClientInput, "Anh Tester Client 0107A7 ");
         Thread.sleep(1000);
         actions.sendKeys(Keys.ENTER).build().perform();
 
@@ -70,7 +70,7 @@ public class AddProductDialog {
         commonService.setText(priceInput, "priceInput");
         Thread.sleep(1000);
 
-        commonService.setText(labelInput, "U");
+        commonService.setText(labelInput, "Learning");
         Thread.sleep(1000);
         actions.sendKeys(Keys.ENTER).build().perform();
         Thread.sleep(1000);
@@ -108,5 +108,8 @@ public class AddProductDialog {
         return driver.findElement(headerPageText).getText().equals(pageText);
     }
 
+    public void refreshPage(){
+        driver.navigate().refresh();
+    }
 
 }

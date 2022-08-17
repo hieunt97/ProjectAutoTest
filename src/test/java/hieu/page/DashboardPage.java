@@ -25,6 +25,9 @@ public class DashboardPage {
     @FindBy(xpath = "//ul[@id='sidebar-menu']//span[contains(text(),'Projects')]")
     private WebElement projectsMenu;
 
+    @FindBy(xpath = "//a[@id='user-dropdown']//span[contains(text(),'Admin User')]")
+    private WebElement userNameValue;
+
     private String url = "/dashboard";
 
     public DashboardPage(WebDriver driver){
@@ -41,6 +44,14 @@ public class DashboardPage {
         Assert.assertTrue(verifyUrl(), "Not page is Dashboard");
         commonService.clickSubmit(projectsMenu);
         return new ProjectPage(driver);
+    }
+
+    public String verifyDashboardPageTitle(){
+        return driver.getTitle();
+    }
+
+    public boolean verifyUsernameValue(){
+        return userNameValue.isDisplayed();
     }
 
 

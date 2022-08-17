@@ -3,30 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627044045.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627044652.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627045918.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627050529.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627050739.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627051113.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220627051927.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220704050906.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220706094617.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113010.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113521.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707113642.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115413.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115815.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220707115956.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220708120150.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report20220708120516.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/ProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -154,6 +138,16 @@
       <workItem from="1657876860642" duration="1175000" />
       <workItem from="1658127367019" duration="1521000" />
       <workItem from="1658165969882" duration="5277000" />
+      <workItem from="1658204355751" duration="1469000" />
+      <workItem from="1658306051357" duration="1148000" />
+      <workItem from="1658391554917" duration="222000" />
+      <workItem from="1658391821674" duration="3062000" />
+      <workItem from="1658483413328" duration="3289000" />
+      <workItem from="1658593017555" duration="1192000" />
+      <workItem from="1658677889167" duration="887000" />
+      <workItem from="1658737165665" duration="4240000" />
+      <workItem from="1660307646297" duration="6292000" />
+      <workItem from="1660723986222" duration="1897000" />
     </task>
     <servers />
   </component>
@@ -189,36 +183,36 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="446" height="442" key="DebuggerActiveHint/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656317668025" />
-    <state x="1908" y="144" key="FileChooserDialogImpl" timestamp="1657876899608">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1658204567621">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1652256104950" />
     <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657876899608" />
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656307401308" />
-    <state width="1323" height="275" key="GridCell.Tab.0.bottom" timestamp="1658171290482">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1658204567621" />
+    <state width="1323" height="89" key="GridCell.Tab.0.bottom" timestamp="1660725575170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
-    <state width="1323" height="275" key="GridCell.Tab.0.center" timestamp="1658171290482">
+    <state width="1323" height="89" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1660725575170" />
+    <state width="1323" height="89" key="GridCell.Tab.0.center" timestamp="1660725575170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
-    <state width="1323" height="275" key="GridCell.Tab.0.left" timestamp="1658171290482">
+    <state width="1323" height="89" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1660725575170" />
+    <state width="1323" height="89" key="GridCell.Tab.0.left" timestamp="1660725575170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
-    <state width="1323" height="275" key="GridCell.Tab.0.right" timestamp="1658171290482">
+    <state width="1323" height="89" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1660725575170" />
+    <state width="1323" height="89" key="GridCell.Tab.0.right" timestamp="1660725575170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="400" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1657120995001" />
     <state width="1557" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657213623089" />
-    <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1658171290482" />
+    <state width="1323" height="89" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1660725575170" />
     <state width="1323" height="275" key="GridCell.Tab.1.bottom" timestamp="1658171290483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,17 +257,19 @@
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1696" y="88" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656309469325" />
-    <state x="1669" y="15" key="SettingsEditor" timestamp="1656302990590">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state x="259" y="13" key="SettingsEditor" timestamp="1658391874408">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1669" y="15" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1656302990590" />
+    <state x="259" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1658391874408" />
     <state x="1873" y="186" width="586" height="488" key="find.popup" timestamp="1655749690819">
       <screen x="1366" y="0" width="1600" height="860" />
     </state>
     <state x="1873" y="186" width="586" height="488" key="find.popup/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1655749690819" />
-    <state x="1548" y="134" key="new project wizard" timestamp="1657106133415">
-      <screen x="1366" y="0" width="1600" height="860" />
+    <state x="131" y="113" key="new project wizard" timestamp="1658391953614">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1548" y="134" key="new project wizard/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657106133415" />
+    <state x="131" y="113" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1658391953614" />
   </component>
 </project>

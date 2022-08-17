@@ -3,6 +3,7 @@ package hieu.testcases;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.google.common.io.Files;
+import hieu.com.uitls.Log;
 import hieu.common.BaseSetup;
 import hieu.common.CommonService;
 import hieu.common.ExtentManager;
@@ -17,6 +18,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -57,27 +59,40 @@ public class ProjectTest extends BaseSetup {
     }
 
     @Test(priority = 2)
+    public void dashboardPageTitleTest() {
+        String title = dashboardPage.verifyDashboardPageTitle();
+        log.info(title);
+        Assert.assertEquals(title, "Dashboard | CRM Project Manager | Anh Tester Demo");
+    }
+
+    @Test(priority = 3)
+    public void verifyUserNameTest() {
+        boolean title = dashboardPage.verifyUsernameValue();
+        Assert.assertTrue(title);
+    }
+
+    @Test(priority = 4)
     public void openProjectPage() throws InterruptedException {
         commonService.waitForPageLoad();
         projectPage = dashboardPage.openProjectsPage();
         Thread.sleep(1000);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 5)
     public void openAddProjectPage() throws InterruptedException {
 
         addProductDialog = projectPage.addProjects();
         Thread.sleep(1000);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 6)
     public void addProject() throws InterruptedException {
         addProductDialog.saveProduct();
-        driver.navigate().refresh();
+        addProductDialog.refreshPage();
         Thread.sleep(1000);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 7)
     public void searchProject() throws InterruptedException {
         commonService.waitForPageLoad();
         projectPage.enterSearchValue("P01");
