@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7f06e7-b048-4e27-af2c-94c5b7b162b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/common/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/AddProductDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/page/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/page/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hieu/testcases/ProjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/common/CommonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/AddProductDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/page/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hieu/testcases/ProjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Selenium-TestNG-Automation-Framework" />
+    <property name="last_opened_file_path" value="F:/ProjectAutotest/test-automation-boilerplate" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -147,7 +139,9 @@
       <workItem from="1658677889167" duration="887000" />
       <workItem from="1658737165665" duration="4240000" />
       <workItem from="1660307646297" duration="6292000" />
-      <workItem from="1660723986222" duration="1897000" />
+      <workItem from="1660723986222" duration="4419000" />
+      <workItem from="1660793905289" duration="2343000" />
+      <workItem from="1661333514145" duration="634000" />
     </task>
     <servers />
   </component>
@@ -183,12 +177,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="446" height="442" key="DebuggerActiveHint/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1656317668025" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1658204567621">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1661334137879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1652256104950" />
     <state x="1908" y="144" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1657876899608" />
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1658204567621" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1661334137879" />
     <state width="1323" height="89" key="GridCell.Tab.0.bottom" timestamp="1660725575170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
